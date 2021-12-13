@@ -23,6 +23,7 @@ const SignUp = () => {
                 emailRef.current.value = '';
                 passwordConfirmRef.current.value = '';
                 passwordRef.current.value = '';
+                
             } catch {
                 setError(true);
                 console.log(error);
